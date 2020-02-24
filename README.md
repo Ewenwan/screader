@@ -3,6 +3,9 @@ screader
 
 The screader is a soure code reading tool based the libclang. It is implemented by the C.
 
+     
+     这里是用C语言写的。主要是根据输入的待分析文件或待分析目录，去分析所有输入的文件，列出文件的AST节点信息。同时，screader还可以在文件后面输入要查找的关键字，然后输出关键字所在节点的相关信息。       这个小工具很简单，几乎没有任何实际使用价值，价值主要在演示了如何调用libclang去做AST分析。有初学者想学习这块内容的话，可以作为参考。
+
 
 
 How to build the scread:
